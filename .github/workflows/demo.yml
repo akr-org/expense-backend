@@ -1,6 +1,6 @@
 name: Caller Workflow
 
-on: [push, pull_request, workflow_call]
+on: [push, pull_request]
 
 jobs:
   CI_Steps:
