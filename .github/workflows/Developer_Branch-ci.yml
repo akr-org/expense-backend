@@ -6,6 +6,7 @@ on:
 jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
+    group: default
     steps:
       - uses: actions/checkout@v4
       - run: env
