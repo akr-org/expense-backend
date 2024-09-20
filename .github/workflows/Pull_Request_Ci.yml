@@ -2,7 +2,7 @@ name: Pull_Request_CI
 on:
   pull_request:
     branches:
-      - 'XPNS-*'
+      - 'main'
 jobs:
   check-bats-version:
     runs-on: self-hosted
