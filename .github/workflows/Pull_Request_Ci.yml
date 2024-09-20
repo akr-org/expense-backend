@@ -4,7 +4,5 @@ on:
     branches:
       - 'main'
 jobs:
-  check-bats-version:
-    runs-on: self-hosted
-    steps:
-      - run: env
+  CI_Steps:
+    uses: akr-org/github-actions/.github/workflows/Pull_Request_Ci.yml@main

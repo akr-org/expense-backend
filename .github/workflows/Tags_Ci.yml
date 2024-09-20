@@ -4,7 +4,5 @@ on:
     tags:
       - "*"
 jobs:
-  check-bats-version:
-    runs-on: self-hosted
-    steps:
-      - run: env
+  CI_Steps:
+    uses: akr-org/github-actions/.github/workflowsTags_Ci.yml@main
