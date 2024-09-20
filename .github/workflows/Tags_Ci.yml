@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: Tags_CI
 on:
   push:
     branches:
