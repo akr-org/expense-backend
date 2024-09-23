@@ -3,6 +3,13 @@ on:
   push:
     tags:
       - "*"
+
+env:
+  service_name: expense-backend
+
 jobs:
   CI_Steps:
     uses: akr-org/github-actions/.github/workflowsTags_Ci.yml@main
+    secrets: inherit
+    with:
+      service_name: expense-backend
